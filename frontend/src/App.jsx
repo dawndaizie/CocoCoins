@@ -5,6 +5,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import Landing from "./pages/Landing";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import Home from "./pages/Dashboard/Home";
@@ -19,7 +20,7 @@ const App = () => {
       <div>
         <Router>
           <Routes>
-            <Route path="/" element={<Root />} />
+            <Route path="/" element={<Landing />} />
             <Route path="/login" exact element={<Login />} />
             <Route path="/register" exact element={<Register />} />
             <Route path="/home" exact element={<Home />} />

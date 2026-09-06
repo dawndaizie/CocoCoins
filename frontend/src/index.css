@@ -1,21 +1,16 @@
 @import "tailwindcss";
 
-@theme {
-    --breakpoint-3xl: 1920px;
-
+:root {
+    font-family: "Figtree", "Geist Pixel", sans-serif;
+    color-scheme: light dark;
     /*color-palette*/
     --evergreen: #002626;
     --ocean: #24bdad;
     --cyan: #a4fbf7;
     --frozen: #d5fff2;
     --shadow: #2a2827;
-
-}
-
-
-:root {
-    font-family: "Figtree", "Geist Pixel", sans-serif;
-    color-scheme: light dark;
+    --breakpoint-3xl: 1920px;
+    
     
 
 }
@@ -29,5 +24,5 @@ h2 {
 }
 
 .gradient {
-  background: radial-gradient(circle, #00d2d3 0%, #a8d4ff 100%);
+  background: radial-gradient(circle, var(--ocean) 0%, var(--cyan) 100%);
 }
