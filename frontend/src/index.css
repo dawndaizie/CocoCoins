@@ -4,14 +4,12 @@
     font-family: "Figtree", "Geist Pixel", sans-serif;
     color-scheme: light dark;
     /*color-palette*/
-    --evergreen: #002626;
-    --ocean: #24bdad;
-    --cyan: #a4fbf7;
-    --frozen: #d5fff2;
     --shadow: #2a2827;
+    --sky: #95d2ff;
+    --ice: #c4e6ff;
+    --lemon:#fff2c6;
+    --nct: #b6e15b;
     --breakpoint-3xl: 1920px;
-    
-    
 
 }
 
@@ -24,5 +22,5 @@ h2 {
 }
 
 .gradient {
-  background: radial-gradient(circle, var(--ocean) 0%, var(--cyan) 100%);
+  background: radial-gradient(circle, var(--lemon) 0%, var(--ice) 100%);
 }
