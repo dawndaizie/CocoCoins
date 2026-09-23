@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-    font-family: "Figtree", "Geist Pixel", sans-serif;
+    font-family: "Figtree", "Momo Trust Display", sans-serif;
     color-scheme: light dark;
     /*color-palette*/
     --shadow: #2a2827;
@@ -18,7 +18,7 @@ body {
 }
 
 h2 {
-    font-family: "Geist Pixel", 'Courier New', Courier, monospace;
+    font-family: "Momo Trust Display", 'Courier New', Courier, monospace;
 }
 
 .gradient {
